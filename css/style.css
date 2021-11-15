@@ -1,0 +1,233 @@
+@import url(reset.css);
+.body {
+position: absolute;
+width: 1440px;
+height: 3359px;
+background: #FFFFFF;
+}
+a {
+	text-decoration: none; /* Убираем подчёркивание */
+    color: #E50043;
+}
+header {
+width: 1440px;
+height: 140px;
+background: #FFFFFF;
+color: #E50043;
+position: fixed;
+z-index: 1000;/* Что бы наш следующий блок не заезжал под шапку 
+как только страница загрузилась добавим отступ. */
+}
+.l1{
+width: 130px;
+height: 40px;
+left: 950px;
+top: 50px;
+font-family: Arial;
+font-size: 50px;
+line-height: 57px;
+display: flex;
+align-items: center;
+position: fixed;
+}
+.l2{
+width: 130px;
+height: 40px;
+left: 1105px;
+top: 50px;
+font-family: Arial;
+font-size: 50px;
+line-height: 57px;
+display: flex;
+align-items: center;
+position: fixed;
+}
+.l3{
+width: 130px;
+height: 40px;
+left: 1260px;
+top: 50px;
+font-family: Arial;
+font-size: 50px;
+line-height: 57px;
+display: flex;
+align-items: center;
+position: fixed;
+}
+.evian {
+width: 120px;
+height: 40px;
+left: 50px;
+top: 50px;
+font-family: Arial;
+font-size: 50px;
+line-height: 57px;
+display: flex;
+align-items: center;
+position: fixed;
+}
+.main {
+position: absolute;
+width: 1440px;
+height: 950px;
+left: 0px;
+top: 140px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+color: #E50043;
+}
+.centered {
+display: flex;
+position: absolute;
+top: 45%;
+left:20%;
+}
+.mainText {
+position: absolute;
+width: 1040px;
+height: 280px;
+left: 201px;
+top: 1140px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+color: #000000;	
+border: 3px solid #F8BFC7;
+box-sizing: border-box;
+border-radius: 20px;
+padding-left: 20px;
+}
+.img1{
+position: absolute;
+width: 281px;
+height: 863px;
+left: 200px;
+top: 1630px;
+}
+.img2 {
+position: absolute;
+width: 279px;
+height: 863px;
+left: 581px;
+top: 1630px;
+}
+.img3 {
+position: absolute;
+width: 280px;
+height: 863px;
+left: 960px;
+top: 1630px;
+}
+.imgtext1{
+position: absolute;
+width: 248px;
+height: 58px;
+left: 216px;
+top: 2541px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+.imgtext2 {
+position: absolute;
+width: 249px;
+height: 58px;
+left: 601px;
+top: 2540px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+.imgtext3 {
+position: absolute;
+width: 237px;
+height: 58px;
+left: 987px;
+top: 2540px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+.section {
+position: absolute;
+width: 1040px;
+height: 280px;
+left: 201px;
+top: 2789px;
+border: 3px solid #F8BFC7;
+box-sizing: border-box;
+border-radius: 20px;
+}
+.glass {
+position: absolute;
+width: 101px;
+height: 220px;
+left: 281px;
+top: 2819px;
+}
+.text2 {
+position: absolute;
+width: 749px;
+height: 220px;
+left: 462px;
+top: 2819px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+color: #000000;
+}
+.footer {
+position: absolute;
+width: 1440px;
+height: 140px;
+left: 0px;
+top: 3219px;
+background: #F8BFC7;
+}
+.text3 {
+position: absolute;
+font-family: Arial;
+font-size: 50px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+padding-left: 50px;
+padding-top: 50px;
+box-sizing: border-box;
+}
